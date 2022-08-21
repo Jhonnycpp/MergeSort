@@ -1,6 +1,16 @@
 # Dependências
+## Windows
     - cmake >= 3.10
-    - compilador C com suporte a C 11
+    - Instalar MSYS2
+## Linux
+```
+    apt update
+    apt install build-essential cmake
+```
+## Mac
+```
+    brew install cmake
+```
 
 # Compilação
 *O projeto está configurado para utilizar as tasks do vscode.*
@@ -24,4 +34,4 @@ make
 ```
 
 # Execução
-No terminal execute o programa que foi gerado na pasta raiz do projeto `./build/MergeSort`
+No terminal execute o programa `MergeSort` que foi gerado na pasta `build` que está na raiz do projeto.
