@@ -35,3 +35,6 @@ make
 
 # Execução
 No terminal execute o programa `MergeSort` que foi gerado na pasta `build` que está na raiz do projeto.
+```
+./build/MergeSort
+```
