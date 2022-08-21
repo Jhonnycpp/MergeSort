@@ -6,12 +6,13 @@
 // https://gist.github.com/olegon/27c2a880c9b932862e60ab5eb89be5b6
 
 int main (void) {
-  int i;
   int v[8] = { -1, 7, -3, 11, 4, -2, 4, 8 };
 
   ms(v, NELEMS(v));
 
-  for (i = 0; i < NELEMS(v); i++) printf("%d ", v[i]);
+  for (int i = 0; i < NELEMS(v); i++) {
+    printf("%d ", v[i]);
+  }
 
   putchar('\n');
 
